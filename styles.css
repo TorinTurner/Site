@@ -9,14 +9,14 @@ button {
  	background:-moz-linear-gradient(top, #f44242 5%, #f44242 100%);
  	background:-webkit-linear-gradient(top, #f44242 5%, #f44242 100%);
  	background:-o-linear-gradient(top, #f44242 5%, #f44242 100%);
- 	background:-ms-linear-gradient(top, #f44242 5%, #f44242 100%);
+ 	background:-ms-linear-gradient(top, #f44242 5%, #000000 100%);
  	background:linear-gradient(to bottom, #f44242 5%, #f44242 100%);
  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f44242', endColorstr='#f44242',GradientType=0);
  	background-color:#f44242;
  	moz-border-radius:5px;
  	webkit-border-radius:5px;
  	border-radius:5px;
- 	border:1px solid #f44242;
+ 	border:1px solid #000000;
  	display:inline-block;
  	cursor:pointer;
  	color:#f44242;
@@ -35,7 +35,7 @@ button:hover {
 	background:-ms-linear-gradient(top, #f44242 5%, #f44242 100%);
 	background:linear-gradient(to bottom, #f44242 5%, #f44242 100%);
  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f44242', endColorstr='#f44242',GradientType=0);
- 	background-color:#f44242;
+ 	background-color:#000000;
  }
  button:active {	
  	position:relative;
