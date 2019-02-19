@@ -34,7 +34,7 @@
 			var inputty = $('#teamNum').val();
 			if (inputty !== undefined) {
 		var sputty = String(inputty);
-			var urls = 'https://www.thebluealliance.com/api/v3/team/frc' + inputty.toString();
+			var urls = 'https://www.thebluealliance.com/api/v3/match/' + inputty.toString();
 		console.log(urls);
 			$.ajax({
 		    url: urls,
@@ -69,12 +69,12 @@
 	    	  $('#rookie').click(function () {
 			$('#result').empty(); 
 		   console.log(inputty);
-        	   var urls = 'https://www.thebluealliance.com/api/v3/team/frc' + inputty.toString();
-		   var urlss = urls + '/events/' + data['rookie_year'].toString() + '/simple';
-		  console.log(urlss);
+        	   var urls = 'https://www.thebluealliance.com/api/v3/match/' + inputty.toString();
+		   //var urlss = urls + '/events/' + data['rookie_year'].toString() + '/simple';
+		  //console.log(urlss);
 			  
 		  $.ajax({
-		    url: urlss,
+		    //url: urlss,
 		    headers: {
 			'X-TBA-Auth-Key': 'u2kDTQPh5Kgn7cOTKTsIzmqoT0KsXBq3PO5U0BeSQgSb7k1kakV6ElfYC0pLCBEf'},
 		    method: 'GET',
